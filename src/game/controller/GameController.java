@@ -15,7 +15,7 @@ public class GameController {
 
     private final String gameName;
 
-    private final Board board;
+    public final Board board;
 
     private final Player[] players;
 

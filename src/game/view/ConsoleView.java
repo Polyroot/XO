@@ -51,6 +51,13 @@ public class ConsoleView {
         }
     }
 
+    protected void showLine(final int size){
+        for (int i=1; i<size; i++){
+            System.out.print(LINE_CHARACTER);
+        }
+        System.out.println();
+    }
+
     private void showBoardLine(final int row){
         for (int i=0; i<3; i++){
             System.out.println(gameController.getBoard().getFigure(row, i));
@@ -58,12 +65,7 @@ public class ConsoleView {
         System.out.println();
     }
 
-    private void showLine(final int size){
-        for (int i=1; i<size; i++){
-            System.out.print(LINE_CHARACTER);
-        }
-        System.out.println();
-    }
+
 
     private int getCoordinate(final String coordinateName){
         int counter=0;
