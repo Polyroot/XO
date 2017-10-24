@@ -6,7 +6,7 @@ public class Player {
 
     private final Figure figure;
 
-    public Player(String name, Figure figure) {
+    public Player(final String name, final Figure figure) {
         this.name = name;
         this.figure = figure;
     }

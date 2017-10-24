@@ -1,17 +1,17 @@
 package game.view;
 
-import game.controller.Game;
+import game.controller.GameController;
 
 public class AdvConsoleView extends ConsoleView{
 
 
-    public AdvConsoleView(final Game game) {
-        super(game);
+    public AdvConsoleView(final GameController gameController) {
+        super(gameController);
     }
     @Override
     public void showGameName(){
         System.out.println("***");
-        System.out.println(game.getGameName());
+        System.out.println(gameController.getGameName());
 
     }
 

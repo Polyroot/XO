@@ -4,8 +4,8 @@ public class Figure {
 
     private final String figure;
 
-    public Figure(final String figure) {
-        this.figure=figure;
+    public Figure(final String figureName) {
+        this.figure=figureName;
 
     }
 
@@ -14,7 +14,7 @@ public class Figure {
     }
     @Override
     public String toString(){
-        return this.figure;
+        return this.getFigure();
     }
 
 }
