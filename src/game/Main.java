@@ -20,9 +20,9 @@ public class Main {
 //        board.setFigure(0,0, figure0);
 //        System.out.println(board.getFigure(0,0));
 
-        Figure  figureX = new Figure("X");
-
-        printFigure(figureX);
+//        Figure  figureX = new Figure("X");
+//
+//        printFigure(figureX);
 
 
     }
