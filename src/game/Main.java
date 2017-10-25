@@ -3,7 +3,9 @@ package game;
 
 import game.controller.GameController;
 import game.model.Board;
+import game.model.ContactBuilder;
 import game.model.Figure;
+import game.model.Contact;
 import game.model.Player;
 import game.view.ConsoleView;
 
@@ -23,6 +25,14 @@ public class Main {
 //        Figure  figureX = new Figure("X");
 //
 //        printFigure(figureX);
+
+        final Contact contact = new ContactBuilder()
+                .name("Sasha")
+                .surname("Rezov")
+                .mail("1@mail.ru")
+                .address("ololo27")
+                .build();
+
 
 
     }
