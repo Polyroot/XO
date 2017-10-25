@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ca8990c-49ac-474d-a99b-2ecdebec08d0" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/game/model/Contact.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/game/model/ContactBuilder.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game/Main.java" afterPath="$PROJECT_DIR$/src/game/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game/model/Board.java" afterPath="$PROJECT_DIR$/src/game/model/Board.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game/model/Figure.java" afterPath="$PROJECT_DIR$/src/game/model/Figure.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game/view/ConsoleView.java" afterPath="$PROJECT_DIR$/src/game/view/ConsoleView.java" />
-    </list>
+    <list default="true" id="3ca8990c-49ac-474d-a99b-2ecdebec08d0" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -123,8 +115,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/game/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="33" column="39" lean-forward="true" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+            <state relative-caret-position="51">
+              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -182,7 +174,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="683" />
     <option name="width" value="683" />
     <option name="height" value="728" />
@@ -420,7 +412,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -658,8 +650,8 @@
         <state relative-caret-position="132">
           <caret line="2075" column="37" lean-forward="true" selection-start-line="2075" selection-start-column="37" selection-end-line="2075" selection-end-column="37" />
           <folding>
-            <element signature="e#78006#78007#0" expanded="true" />
-            <element signature="e#78050#78051#0" expanded="true" />
+            <element signature="e#78006#78007#0" expanded="false" />
+            <element signature="e#78050#78051#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -776,8 +768,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/game/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="33" column="39" lean-forward="true" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+        <state relative-caret-position="51">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
