@@ -60,7 +60,7 @@ public class ConsoleView {
 
     private void showBoardLine(final int row){
         for (int i=0; i<3; i++){
-            System.out.println(gameController.getBoard().getFigure(row, i));
+            System.out.print(gameController.getBoard().getFigure(row, i)+" ");
         }
         System.out.println();
     }

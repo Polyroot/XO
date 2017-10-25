@@ -1,12 +1,8 @@
 package game;
 
-
 import game.controller.GameController;
 import game.model.Board;
-import game.model.ContactBuilder;
 import game.model.Figure;
-import game.model.Contact;
-import game.model.Player;
 import game.view.ConsoleView;
 
 public class Main {
@@ -26,13 +22,20 @@ public class Main {
 //
 //        printFigure(figureX);
 
-        final Contact contact = new ContactBuilder()
-                .name("Sasha")
-                .surname("Rezov")
-                .mail("1@mail.ru")
-                .address("ololo27")
-                .build();
 
+        Board board = new Board();
+        board.setFigure(0,0,Figure.X);
+        board.setFigure(1,1,Figure.X);
+        board.setFigure(0,1,Figure.O);
+
+        for (Figure f : Figure.values()){
+            System.out.println(f);
+        }
+        Figure f = Figure.valueOf("X");
+
+        final GameController gameController = new GameController(null, null, board);
+        final ConsoleView consoleView = new ConsoleView(gameController);
+        consoleView.showBoard();
 
 
     }

@@ -1,10 +1,12 @@
 package game.model;
 
-public class Figure {
+public enum Figure {
+
+    X("X"), O("O");
 
     private final String figure;
 
-    public Figure(final String figureName) {
+    Figure(final String figureName) {
         this.figure=figureName;
 
     }
@@ -12,9 +14,6 @@ public class Figure {
     public String getFigure(){
         return figure;
     }
-    @Override
-    public String toString(){
-        return this.getFigure();
-    }
+
 
 }

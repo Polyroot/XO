@@ -25,7 +25,7 @@ public class Board {
     }
 
     public void showBoard(){
-        System.out.println(this.figures);
+        System.out.print(this.figures);
 
 
     }
