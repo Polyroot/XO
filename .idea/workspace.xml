@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ca8990c-49ac-474d-a99b-2ecdebec08d0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/game/jinterface/Replacer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/game/jinterface/printer/AdvConsolePrinter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/game/jinterface/printer/ConsolePrinter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/game/jinterface/printer/IPrinter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/game/jinterface/readers/IRead.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/game/jinterface/readers/PredefinedReader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/game/aclass/AbstractSmileProcessor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/game/aclass/FileSmileProcessor.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,30 +16,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ConsoleView.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/game/view/ConsoleView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/game/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ToStringDemo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/game/ToStringDemo.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -105,7 +77,7 @@
       <file leaf-file-name="Replacer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/game/jinterface/Replacer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
+            <state relative-caret-position="561">
               <caret line="33" column="46" lean-forward="false" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -114,11 +86,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdvConsolePrinter.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FileSmileProcessor.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/game/aclass/FileSmileProcessor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding>
+                <element signature="e#133#134#0" expanded="true" />
+                <element signature="e#178#179#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdvConsolePrinter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/game/jinterface/printer/AdvConsolePrinter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+            <state relative-caret-position="170">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractSmileProcessor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/game/aclass/AbstractSmileProcessor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -193,6 +188,9 @@
         <option value="$PROJECT_DIR$/src/game/jinterface/readers/PredefinedReader.java" />
         <option value="$PROJECT_DIR$/src/game/jinterface/Replacer.java" />
         <option value="$PROJECT_DIR$/src/game/jinterface/printer/AdvConsolePrinter.java" />
+        <option value="$PROJECT_DIR$/src/game/aclass/SmileProcessor.java" />
+        <option value="$PROJECT_DIR$/src/game/aclass/FileSmileProcessor.java" />
+        <option value="$PROJECT_DIR$/src/game/aclass/AbstractSmileProcessor.java" />
       </list>
     </option>
   </component>
@@ -244,7 +242,7 @@
               <item name="XO" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="game" type="462c0819:PsiDirectoryNode" />
-              <item name="jinterface" type="462c0819:PsiDirectoryNode" />
+              <item name="aclass" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="XO" type="b2602c69:ProjectViewProjectNode" />
@@ -252,22 +250,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="game" type="462c0819:PsiDirectoryNode" />
               <item name="jinterface" type="462c0819:PsiDirectoryNode" />
-              <item name="printer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="XO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="XO" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="game" type="462c0819:PsiDirectoryNode" />
-              <item name="jinterface" type="462c0819:PsiDirectoryNode" />
-              <item name="readers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="XO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="XO" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="game" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -292,15 +274,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Replacer">
-    <configuration name="Dot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.FileSmileProcessor">
+    <configuration name="FileSmileProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="game.view.*" />
+          <option name="PATTERN" value="game.aclass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="game.view.Dot" />
+      <option name="MAIN_CLASS_NAME" value="game.aclass.FileSmileProcessor" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -490,19 +472,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Dot" />
-      <item index="2" class="java.lang.String" itemvalue="Application.ToStringDemo" />
-      <item index="3" class="java.lang.String" itemvalue="Application.ValueOfDemo" />
-      <item index="4" class="java.lang.String" itemvalue="Application.StringToInt" />
-      <item index="5" class="java.lang.String" itemvalue="Application.Replacer" />
+      <item index="1" class="java.lang.String" itemvalue="Application.ToStringDemo" />
+      <item index="2" class="java.lang.String" itemvalue="Application.ValueOfDemo" />
+      <item index="3" class="java.lang.String" itemvalue="Application.StringToInt" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Replacer" />
+      <item index="5" class="java.lang.String" itemvalue="Application.FileSmileProcessor" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Replacer" />
-        <item index="1" class="java.lang.String" itemvalue="Application.StringToInt" />
-        <item index="2" class="java.lang.String" itemvalue="Application.ValueOfDemo" />
-        <item index="3" class="java.lang.String" itemvalue="Application.ToStringDemo" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Dot" />
+        <item index="0" class="java.lang.String" itemvalue="Application.FileSmileProcessor" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Replacer" />
+        <item index="2" class="java.lang.String" itemvalue="Application.StringToInt" />
+        <item index="3" class="java.lang.String" itemvalue="Application.ValueOfDemo" />
+        <item index="4" class="java.lang.String" itemvalue="Application.ToStringDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -561,27 +543,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/game/model/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding>
-            <element signature="e#261#262#0" expanded="false" />
-            <element signature="e#288#289#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/game/view/ConsoleView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="57" column="29" lean-forward="true" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/game/view/MansConsoleView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -632,7 +593,7 @@
         <state relative-caret-position="323">
           <caret line="21" column="46" lean-forward="false" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -824,7 +785,7 @@
         <state relative-caret-position="289">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -921,9 +882,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/jinterface/printer/AdvConsolePrinter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/game/jinterface/Replacer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
+        <state relative-caret-position="561">
           <caret line="33" column="46" lean-forward="false" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -931,11 +900,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/game/jinterface/printer/AdvConsolePrinter.java">
+    <entry file="file://$PROJECT_DIR$/src/game/aclass/AbstractSmileProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        <state relative-caret-position="255">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/aclass/FileSmileProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#133#134#0" expanded="true" />
+            <element signature="e#178#179#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
